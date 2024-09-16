@@ -162,7 +162,7 @@ Usage: `copy file_name /path/to/directory/you/want/to/paste`
 For copying directory, you need to add `-r` option
 
 ```bash
-$ cp -r /scratch/bio373_2023/data/CommandLine /scratch/bio373_2023/YOUR_USERNAME 
+$ cp -r /scratch/bio373_2024/data/CommandLine /scratch/bio373_2024/YOUR_USERNAME 
 $ ls #check if the directory copied properly
 ```
 
@@ -174,8 +174,8 @@ Often you'll want/need to have a file in directories in several locations. Inste
 
 ```bash
 # move to your directory if you are not there
-$ cd /scratch/bio373_2023/YOUR_USERNAME 
-$ ln -s /scratch/bio373_2023/data/CommandLine
+$ cd /scratch/bio373_2024/YOUR_USERNAME 
+$ ln -s /scratch/bio373_2024/data/CommandLine
 ```
 
 * * *
@@ -205,7 +205,7 @@ data $ cat file1.txt file2.txt
 
   ```bash
   # move to working directory if you are not there
-  $ cd /scratch/bio373_2023/data
+  $ cd /scratch/bio373_2024/data
   data $ less Ahal.gff
   ```
 
@@ -261,7 +261,7 @@ Usage: `gzip [options] filename`
 | option | long_option               | description                                                                                        |
 | ------ | ------------------------- | -------------------------------------------------------------------------------------------------- |
 | -1~-9  |                           | compression level. "-1" is fast, but low compression. "-9" can compress with high level, but slow. |
-| -c     | --stdout, --to-stdout     | show outout on the prompt, not to afile.                                                           |
+| -c     | --stdout, --to-stdout     | show outout on the prompt, not to a file.                                                           |
 | -d     | --decompress,--uncompress | uncompress the gzip-compressed file                                                                |
 | -f     | --force                   | overwrite the file.                                                                                |
 | -k     | --keep                    | keep the original file.                                                                            |
