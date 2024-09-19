@@ -4,7 +4,9 @@ From here, we use GATK4 software.
 If you logged out of the server, you'll need to load the samtools again.
 
 ```bash
-$ ssh your_BFabric_account_name@172.23.30.6
+$ ssh your_BFabric_account_name@fgcz-c-047.uzh.ch
+$ ssh fgcz-kl-003
+
 $ source /usr/local/ngseq/etc/lmod_profile
 $ module load Tools/samtools/1.11
 $ module load Variants/GATK/4.2.0.0
