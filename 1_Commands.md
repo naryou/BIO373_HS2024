@@ -124,7 +124,7 @@ Desktop $
 * * *
 
 
-### Create directory: `mkdir` (DO NOT RUN TODAY)
+### Create directory: `mkdir`
 
 Usage: `mkdir name_of_directory`
 
@@ -138,7 +138,7 @@ $
 * * *
 
 
-### Create files: `touch` (DO NOT RUN TODAY)
+### Create files: `touch` 
 
 You can create empty file with `touch` command.
 
@@ -153,7 +153,7 @@ $
 
 * * *
 
-### Copy: `cp`  (DO NOT RUN TODAY)
+### Copy: `cp` 
 
 Copy and paste files or directories
 
@@ -252,7 +252,7 @@ $ grep -vc "CDS" Ahal.gff
 
 * * *
 
-### Compress file: `gzip` (DO NOT RUN TODAY)
+### Compress file: `gzip`
 
 Usage: `gzip [options] filename`
 
@@ -278,7 +278,7 @@ There are some commands to compress files. Use proper commands depends your file
 
 * * *
 
-### Working with compressed files (DO NOT RUN TODAY)
+### Working with compressed files
 
 The commands above work with uncompressed, plain text files.  
 Many tools either output compressed (gzipped, bzipped, etc) files, collaborators will send you compressed files or you should compress your files to save disk space.  
