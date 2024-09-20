@@ -92,10 +92,10 @@ cor.test(pred$Prediction, y$Year06Flowering.time.at.Arkansas, method = 'pearson'
 Predicting flowering time 2007  
 ```
 # perform a linear regression to estimate the slope and intercept
-res <- xx(y$Year07Flowering.time.at.Arkansas~pred$Prediction)
+res <- lm(y$Year07Flowering.time.at.Arkansas~pred$Prediction)
 
 # plot the results
-xxxx(pred$Prediction,
+plot(pred$Prediction,
      y$Year07Flowering.time.at.Arkansas,
      ylab="flowering 2007", xlab="predicted",
      main=paste("r =",round(sqrt(summary(res)$r.squared),2)))
