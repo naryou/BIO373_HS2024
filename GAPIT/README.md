@@ -14,7 +14,7 @@ install.packages("devtools")
 BiocManager::install("snpStats")
 devtools::install_github("SFUStatgen/LDheatmap")
 devtools::install_github("jiabowang/GAPIT3@078fe28",force=TRUE) # install ver Aug. 2022
-xxxxxxxxx # load GAPIT3 package
+library(GAPIT3) # load GAPIT3 package
 ```
 
 ## 2. Load phenotypes and genotypes
