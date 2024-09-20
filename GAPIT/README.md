@@ -86,7 +86,7 @@ y <- p[order(p$HybID),]
 Pearson's correlation between predicted and observed flowering  
 ```
 # calculate Pearson's correlation between predicted and observed flowering
-xxxxxxxx(pred$Prediction, y$Year06Flowering.time.at.Arkansas) 
+cor.test(pred$Prediction, y$Year06Flowering.time.at.Arkansas, method = 'pearson') 
 ```
 
 Predicting flowering time 2007  
