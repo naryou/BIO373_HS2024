@@ -54,10 +54,14 @@ module load Assembly/Flye/2.8.2
 
 # Quality assessment 
 ## Quast
+source /usr/local/ngseq/etc/lmod_profile 
+module avail
+module load QC/QUAST/5.2.0
 
 
 
-## BUSCO
+## compare the quality of this file with the genome that is assembled using all of the redas
+
 
 
 
