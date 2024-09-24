@@ -84,7 +84,7 @@ $ nohup quast.py ./GENOME.fasta -o ./quast -t 2 -e &
 ## Exercise
 Compare the quality of the genome you generated with the genome that is located in "/scratch/bio373_2024/data/denovo_assembly/assembly/"
 
-* what metrics are different?
+* What metrics are different?
 * What might cause the differences? 
 
 
