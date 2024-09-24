@@ -4,12 +4,12 @@
 
 
 
-## Quality assessment 
-# Quast
+# Quality assessment 
+## Quast
 
 
 
-# BUSCO
+## BUSCO
 
 
 
