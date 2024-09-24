@@ -28,6 +28,7 @@ $ ssh fgcz-kl-003
 $ cd /scratch/bio373_2024/YOUR_NAME
 $ mkdir denovo_assembly
 $ mkdir denovo_assembly/raw_data
+$ mkdir denovo_assembly/flye
 
 ```
 
@@ -37,7 +38,7 @@ We use symlinks to help save diskspace on the server.
 ```bash
 $ cd denovo_assembly/raw_data
 $ dataDir="/scratch/bio373_2024/data/denovo_assembly/raw_data"
-$ ln -s ${dataDir}/XXX.fa
+$ ln -s ${dataDir}/5173_E.hifi_reads_20_perc.fastq
 ```
 
 
@@ -48,15 +49,14 @@ $ ln -s ${dataDir}/XXX.fa
 source /usr/local/ngseq/etc/lmod_profile
 module load Assembly/Flye/2.8.2
 
-input=/srv/kenlab/narcis/BIO373/raw_data/Athaliana/5173_E.hifi_reads.fastq.gz
-out=/srv/kenlab/narcis/BIO373/analysis/assemblies/flye/Athaliana/purge_1
+input=/scratch/bio373_2024/YOUR_NAME/denovo_assembly/raw_data/5173_E.hifi_reads.fastq.gz
+out=/scratch/bio373_2024/YOUR_NAME/denovo_assembly/flye
 
 flye --pacbio-hifi $input --out-dir $out --genome-size 125m --threads 4 --iterations 3 --keep-haplotypes
 
-
 ```
 
-
+This takes about 2h.
 
 # Quality assessment 
 ## Quast
