@@ -37,7 +37,7 @@ We can use it in subsequent steps.
 $ mkdir 01_aligned
 $ acc=516950
 $ bwa mem -M -t 2 -R "@RG\tID:CAV90ANXX.6\tPL:Illumina\tLB:${acc}\tSM:${acc}" 00_input/MedtrChr2.fa 00_input/${acc}_chr2_R{1,2}.fastq.gz | samtools sort -m 16G -T /scratch/bio373_2024/YOUR_NAME -o 00_input/01_aligned/${acc}.sorted.bam
-$ samtools index 01_aligned/${acc}.sorted.bam
+$ samtools index 00_input/01_aligned/${acc}.sorted.bam
 ```
 
 Then, change the value in ${acc} variable above for the other sample (660389) and re-run the whole bwa|samtools command.
