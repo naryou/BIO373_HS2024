@@ -1,8 +1,19 @@
 # This is tutorial for genome assembly using Flye and Hifiasm
 
-## Flye
+## Flye assembler
+
+
+
+## Quality assessment 
+# Quast
+
+
+
+# BUSCO
 
 
 
 
-## Hifiasm
+
+
+
