@@ -1,4 +1,4 @@
-# This is tutorial for genome assembly using Flye and Hifiasm
+# This is tutorial for genome assembly using Flye
 
 ## Flye assembler
 
