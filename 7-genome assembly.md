@@ -43,10 +43,16 @@ $ ln -s ${dataDir}/XXX.fa
 
 ## Flye assembler
 
-
 ```
+#!/bin/bash
 source /usr/local/ngseq/etc/lmod_profile
 module load Assembly/Flye/2.8.2
+
+input=/srv/kenlab/narcis/BIO373/raw_data/Athaliana/5173_E.hifi_reads.fastq.gz
+out=/srv/kenlab/narcis/BIO373/analysis/assemblies/flye/Athaliana/purge_1
+
+flye --pacbio-hifi $input --out-dir $out --genome-size 125m --threads 4 --iterations 3 --keep-haplotypes
+
 
 ```
 
@@ -54,11 +60,13 @@ module load Assembly/Flye/2.8.2
 
 # Quality assessment 
 ## Quast
-source /usr/local/ngseq/etc/lmod_profile 
-module avail
-module load QC/QUAST/5.2.0
+$ source /usr/local/ngseq/etc/lmod_profile 
+$ module avail
+$ module load QC/QUAST/5.2.0
 
+$ mkdir quast
 
+$ nohup quast.py ./GENOME.fasta -o ./quast -t 2 -e &
 
 ## compare the quality of this file with the genome that is assembled using all of the redas
 
