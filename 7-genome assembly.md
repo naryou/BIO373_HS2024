@@ -1,4 +1,4 @@
-# This is tutorial for genome assembly using Flye
+# This is a tutorial for genome assembly using Flye
 Environment management with module system
 
 Here, we'll again use the module system to load the software we want to use.
