@@ -1,5 +1,14 @@
 # This is a tutorial for genome assembly using Flye
-Environment management with module system
+
+* Login to the server:
+```bash
+$ ssh your_BFabric_account_name@fgcz-c-047.uzh.ch
+@fgcz-genomics.uzh.ch's password:
+
+$ ssh fgcz-kl-003
+```
+
+* Environment management with module system
 
 Here, we'll again use the module system to load the software we want to use.
 You need to do this every time you log into the server.
