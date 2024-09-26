@@ -4,6 +4,8 @@
 
 Clean up a workplace first.
 ```
+lapply(paste('package:',names(sessionInfo()$otherPkgs),sep=""),detach,character.only=TRUE,unload=TRUE)
+
 rm(list=ls())
 ```
 
