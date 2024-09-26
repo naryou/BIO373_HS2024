@@ -29,10 +29,6 @@ $ module avail
 Start from your directory on the server for the course and make a new folder for this exercise:
 
 ```bash
-$ ssh your_BFabric_account_name@fgcz-c-047.uzh.ch
-@fgcz-genomics.uzh.ch's password:
-
-$ ssh fgcz-kl-003
 
 $ cd /scratch/bio373_2024/YOUR_NAME
 $ mkdir denovo_assembly
