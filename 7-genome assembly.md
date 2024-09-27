@@ -48,6 +48,7 @@ $ ln -s ${dataDir}/5173_E.hifi_reads_20_perc.fastq
 
 
 ## Flye assembler
+[Flye](https://github.com/mikolmogorov/Flye) is a de novo assembler for single-molecule sequencing reads (PacBio and Oxford Nanopore).
 
 ```
 #!/bin/bash
